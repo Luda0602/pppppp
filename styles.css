@@ -248,3 +248,115 @@ background-color: #1C1814;
     text-align: center;
     text-transform: uppercase;
 }
+.popular__img {
+    display: block;
+    margin-bottom: 36px;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: #C99E71;
+}
+.rating__title {
+    font-weight: 500;
+}
+.rating__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+}
+.rating__item {
+    font-size: 16px;
+    line-height: 26px;
+}
+.popular__title {
+    margin-bottom: 12px 0 20px;
+    font:  24px/30px 'Righteous',cursive;
+}
+.popular__price {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+.popular__price_dark {
+    color: #C99E71;
+    font: 400 18px  'Inter',Arial,Helvetica,sans-serif;
+}
+.popular__btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+    gap: 15px;
+    margin: 38px auto 0;
+    padding: 13px 0;
+    width: 170px;
+     font: 600 18px/22px  'Urbanist',Arial,Helvetica,sans-serif;
+}
+.popular:hover .rating,
+.popular:hover .popular__price {
+    display: none;
+}
+.popular:hover .popular__btn {
+display: flex;
+}
+.popular__link {
+    display: block;
+    width: 252px;
+    margin: 0 auto;
+}
+/* Discover */
+.discover-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 85px 80px;
+    background-color: #1C1814;
+}
+.discover-img {
+    display: block;
+    margin: 0 auto;
+    max-height: 359px;
+}
+.discover {
+    max-width: 535px;
+}
+.discover__title {
+    margin-bottom: 36px;
+    text-align: left;
+}
+.discover__link {
+    display: block;
+    margin-top: 36px;
+    width: 215px;
+}
+/* menu */
+.menu-wrap {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+row-gap: 36px;
+}
+.menu {
+    display: flex;
+   padding: 24px;
+    align-items: center;
+    width: 48%;
+    gap: 20px;
+    border: 1px solid #32323D;
+}
+.menu__img {
+    width: 72px;
+    height: 72px;
+
+}
+.menu__title {
+    font:  24px/30px 'Righteous',cursive;
+}
+.menu__price {
+    display: block;
+    margin-left: auto;
+    font-size: 18px;
+    color: #C99E71;
+}
